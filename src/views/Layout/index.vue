@@ -3,7 +3,7 @@
     <navigation class="section-nav"></navigation>
     <div class="section-right">
       <home class="section-home"></home>
-<about></about>
+      <about></about>
     </div>
   </div>
 </template>

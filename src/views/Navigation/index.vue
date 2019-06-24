@@ -32,5 +32,9 @@
         </li>
       </ul>
     </div>
+    <div class="nav__copyright">
+      Copyright
+      <i class="far fa-copyright"></i> 2019 Rondo_lin All Rights Reserved
+    </div>
   </div>
 </template>
