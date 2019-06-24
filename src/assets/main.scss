@@ -4,14 +4,16 @@
 // @import "./abstracts/animate";
 // @import "./abstracts/mixins";
 // @import "./abstracts/variables";
+@import "./abstracts/variable";
+@import "./abstracts/mixins";
+@import "./abstracts/animate";
+
 
 @import "./base/base";
 @import "./base/typography";
 @import "./base/utilities";
 
-@import "./abstracts/variable";
-@import "./abstracts/mixins";
-@import "./abstracts/animate";
+
 
 @import "./abstracts/mixins";
 
