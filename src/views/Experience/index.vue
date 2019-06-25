@@ -1,6 +1,6 @@
 <template>
     <div>
-        <p>About</p>
+        <p>Experience</p>
     </div>
 </template>
 <script>

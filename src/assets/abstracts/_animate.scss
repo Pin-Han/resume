@@ -1,0 +1,20 @@
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-0.2rem);
+        // left: 30%;
+    }
+
+    80% {
+        // left: 40%;
+        transform: translateX(0.3rem);
+        // transform: translateX(0.5rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0rem);
+        // left: 35%;
+        // transform: translateX(0);
+    }
+}

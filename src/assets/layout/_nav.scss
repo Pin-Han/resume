@@ -77,9 +77,11 @@ cursor: pointer;
         transform: scaleY(1);
         width: 100%;
     }
-    &__copyright{
-        font-size: 0.1rem;
-        color: #fff;
-
-    }
+}
+.copyright{
+    // position: absolute;
+    // top: calc(100% - 50px);
+    font-size: 0.1rem;
+    color: $color-white-light;
+    padding: 0.15rem .1rem;
 }

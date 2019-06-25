@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="all-nav">
     <div class="nav">
       <div class="nav__title">
         <img src="@/assets/image/self.jpeg" alt="self" class="nav__title--img">
@@ -26,15 +26,20 @@
           <i class="fas fa-file nav__item--icon"></i>
           <a href="#" class="nav__item--direct">Resume</a>
         </li>
-        <li class="nav__item">
+        <!-- <li class="nav__item">
           <i class="fas fa-phone nav__item--icon"></i>
           <a href="#" class="nav__item--direct">Contact</a>
-        </li>
+        </li> -->
       </ul>
     </div>
-    <div class="nav__copyright">
+    <div class="copyright">
       Copyright
       <i class="far fa-copyright"></i> 2019 Rondo_lin All Rights Reserved
     </div>
   </div>
 </template>
+<style lang="scss">
+.all-nav{
+    position: relative;
+}
+</style>
