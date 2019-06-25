@@ -34,7 +34,7 @@
     </div>
     <div class="copyright">
       Copyright
-      <i class="far fa-copyright"></i> 2019 Rondo_lin All Rights Reserved
+      <i class="far fa-copyright"></i> 2019 Pin-Han Lin All Rights Reserved
     </div>
   </div>
 </template>

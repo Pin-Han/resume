@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <p>Experience</p>
+    <div class="pos-rel">
+            <div class="span">Experience</div>
     </div>
 </template>
 <script>

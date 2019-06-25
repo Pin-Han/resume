@@ -1,7 +1,9 @@
 <template>
-    <div>
-        <p>Project</p>
-    </div>
+
+        <div class="pos-rel">
+            <div class="span">Project</div>
+        </div>
+
 </template>
 <script>
 export default {

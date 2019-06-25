@@ -1,0 +1,17 @@
+.about {
+    display: flex;
+    padding-top: 1.75rem;
+
+    &__descript {
+        flex: 2;
+        background-color: blue;
+        height: 200px;
+    }
+
+    &__profilo {
+        flex: 1;
+        background-color: green;
+        height: 200px;
+
+    }
+}

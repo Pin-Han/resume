@@ -3,6 +3,7 @@
     height: 100%;
     background-size: cover;
     position: relative;
+    background-attachment: fixed;
 
     &__title {
         position: absolute;
@@ -11,10 +12,12 @@
         transform: translate(-50%, -50%);
 
         color: $color-white-light;
+
         &--descript {
+            animation-delay: 0.5s;
             animation-name: moveInLeft;
             animation-duration: 1s;
-             animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
             font-size: 0.4rem;
             font-weight: bold;
 
@@ -35,6 +38,7 @@
             transition: all .2s;
             outline: none;
             border: none;
+            cursor: pointer;
 
             &:hover {
                 transform: translateY(-3px);

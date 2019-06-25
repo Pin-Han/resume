@@ -3,11 +3,11 @@
     <navigation class="section-nav"></navigation>
     <div class="section-right">
       <home class="section-home"></home>
-      <about class="section-about height-all">About</about>
+      <about class="section-about height-all"></about>
       <exp class="section-exp height-all">exp</exp>
       <project class="section-project height-all">project</project>
       <skill class="section-skill height-all">skill</skill>
-      <resume class="section-resume height-all">resume</resume>Ï
+      <resume class="section-resume height-all">resume</resume>
     </div>
   </div>
 </template>

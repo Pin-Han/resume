@@ -1,0 +1,23 @@
+.span {
+    width: 1.5rem;
+    height: auto;
+    background-color: $color-yellow;
+    font-size: 0.25rem;
+    padding: 0.075rem 0;
+    position: absolute;
+    text-align: center;
+    color: $color-white-light;
+    margin-top: .75rem;
+
+    &::before {
+        content: "";
+        position: absolute;
+        left: 1.5rem;
+        top: 0;
+        font-size: 0px;
+        border-width: .25rem;
+        border-style: solid;
+        border-color: transparent transparent transparent $color-yellow;
+
+    }
+}
