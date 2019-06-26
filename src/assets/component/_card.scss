@@ -1,0 +1,78 @@
+.card {
+    height: 3.5rem;
+    width: 100%;
+    position: relative;
+    color: $color-primary-lighest;
+    // border: 1px solid $color-ye  llow;
+    box-shadow: 5px 5px 5px rgba($color: $color-black, $alpha: 0.3);
+
+    &__img {
+        width: 100%;
+        height: 2.5rem;
+        border-radius: 2px;
+        background-size: cover;
+        background-position: center;
+
+
+        &--1 {
+            background-image: url('./assets/image/ominifood.png');
+        }
+
+        &--2 {
+            background-image: url('./assets/image/natour.png');
+        }
+
+        &--3 {
+            background-image: url('./assets/image/trillo.png');
+        }
+
+        &--4 {
+            background-image: url('./assets/image/dessert.png');
+        }
+
+        &--5 {
+            background-image: url('./assets/image/dice.png');
+        }
+
+        &--6 {
+            background-image: url('./assets/image/dice.png');
+        }
+
+    }
+
+    &__descript {
+        font-size: 0.2rem;
+        padding: 0.07rem;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+    }
+
+    &__link {
+        font-size: 0.2rem;
+        border: 0px solid $color-primary;
+        display: inline-block;
+        border-radius: 50px;
+        padding: 0.1rem;
+        // position: absolute;
+        // right: 10px;
+        transition: all .2s;
+        // bottom: 15px;
+        margin: 0 0.05rem;
+
+        &:hover {
+            background-color: $color-green-primary;
+            color: $color-white-light;
+            cursor: pointer;
+        }
+    }
+
+    &__main {
+        font-size: 0.2rem;
+        padding-bottom: 0.1rem;
+        padding-left: 0.07rem;
+    }
+
+
+}

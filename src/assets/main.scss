@@ -4,12 +4,13 @@
 // @import "./abstracts/animate";
 // @import "./abstracts/mixins";
 // @import "./abstracts/variables";
+@import "./base/base";
+
 @import "./abstracts/variable";
 @import "./abstracts/mixins";
 @import "./abstracts/animate";
 
 
-@import "./base/base";
 @import "./base/typography";
 @import "./base/utilities";
 
@@ -18,6 +19,8 @@
 @import "./layout/nav";
 
 @import "./component/span";
+@import "./component/card";
+
 
 
 

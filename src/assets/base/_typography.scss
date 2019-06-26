@@ -5,11 +5,14 @@
 
 .section-nav {
     background-color: $color-primary;
-    height: auto;
+    height: 100vh;
     width: 15%;
     // position: fixed;
     min-width: 200px;
     position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 
@@ -22,3 +25,4 @@
     height: 100vh;
 
 }
+

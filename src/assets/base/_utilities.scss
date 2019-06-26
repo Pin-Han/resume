@@ -1,10 +1,20 @@
 //放置通用的scss
 .height-all{
     height: 100vh;
-    background-color: $color-white-light;//暫時放置
+    background-color: $color-white-lightest;//暫時放置
     border-bottom: 1px solid black;
 }
 
 .pos-rel{
     position: relative;
+}
+.col-1-of-3 {
+    width: calc((100% -2 * $gap) / 3);
+    // height: 20px;
+    &:not(:last-child){
+        margin-right: $gap;
+    }
+}
+.m-bottom-2{
+    margin-bottom: .2rem;
 }
