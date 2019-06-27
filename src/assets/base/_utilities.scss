@@ -1,6 +1,7 @@
 //放置通用的scss
 .height-all{
-    height: 100vh;
+    min-height: 100vh;
+    height: auto;
     background-color: $color-white-lightest;//暫時放置
     border-bottom: 1px solid black;
 }
@@ -15,6 +16,6 @@
         margin-right: $gap;
     }
 }
-.m-bottom-2{
-    margin-bottom: .2rem;
+.m-bottom-3{
+    margin-bottom: .3rem;
 }

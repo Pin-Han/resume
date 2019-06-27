@@ -14,17 +14,22 @@
         color: $color-white-light;
 
         &--descript {
-            animation-delay: 0.5s;
-            animation-name: moveInLeft;
-            animation-duration: 1s;
-            animation-timing-function: ease-out;
             font-size: 0.4rem;
             font-weight: bold;
-
+            width: 100%;
+            overflow: hidden;
+            white-space: nowrap;
+            animation-delay: 0.5s;
+            animation: typing 3.5s steps(26);
         }
 
         &--name {
             font-size: 0.3rem;
+            animation-delay: 0.5s;
+            animation-name: moveInLeft;
+            animation-duration: 1s;
+            animation-timing-function: ease-out;
+
         }
 
         &--more {

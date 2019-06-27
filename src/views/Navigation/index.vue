@@ -41,5 +41,6 @@
 <style lang="scss">
 .all-nav{
     position: relative;
+    overflow-y: scroll;
 }
 </style>

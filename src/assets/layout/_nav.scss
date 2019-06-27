@@ -2,6 +2,7 @@
     font-size: 0.25rem;
 
     &__title {
+        cursor: pointer;
         width: 100%;
         padding: 0.3rem 0.2rem 0rem 0.2rem;
         background-color: $color-primary-light;
@@ -40,7 +41,8 @@
         transition: all .2s;
         padding: 0.2rem 0.4rem;
         position: relative;
-cursor: pointer;
+        cursor: pointer;
+
         &--icon {
             padding-bottom: 0.1rem;
             font-size: 0.25rem;
@@ -78,7 +80,10 @@ cursor: pointer;
         width: 100%;
     }
 }
-.copyright{
+.nav-active{
+    background-color: $color-yellow;
+}
+.copyright {
     // position: absolute;
     // top: calc(100% - 50px);
     font-size: 0.1rem;

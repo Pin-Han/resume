@@ -1,5 +1,5 @@
 .card {
-    height: 3.5rem;
+    height: 3.75rem;
     width: 100%;
     position: relative;
     color: $color-primary-lighest;
@@ -27,15 +27,15 @@
         }
 
         &--4 {
-            background-image: url('./assets/image/dessert.png');
+            background-image: url('./assets/image/dice.png');
         }
 
         &--5 {
-            background-image: url('./assets/image/dice.png');
+            background-image: url('./assets/image/youbike.jpg');
         }
 
         &--6 {
-            background-image: url('./assets/image/dice.png');
+            background-image: url('./assets/image/dessert.png');
         }
 
     }
@@ -70,8 +70,7 @@
 
     &__main {
         font-size: 0.2rem;
-        padding-bottom: 0.1rem;
-        padding-left: 0.07rem;
+        padding: 0 0.1rem 0.1rem 0.1rem;
     }
 
 
