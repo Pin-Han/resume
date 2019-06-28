@@ -41,14 +41,13 @@
       </div>
     </div>
     <div class="section-right" id="right">
-
       <home class="section-home" id="nav-0"></home>
       <about class="section-about height-all" id="nav-1"></about>
       <exp class="section-exp height-all" id="nav-2">exp</exp>
       <project class="section-project height-all" id="nav-3">project</project>
       <skill class="section-skill height-all" id="nav-4">skill</skill>
       <resume class="section-resume height-all" id="nav-5">resume</resume>
-      <contact class="section-resume height-all" id="nav-6">contact</contact>
+      <contact class="section-contact height-all" id="nav-6">contact</contact>
     </div>
   </div>
 </template>
@@ -136,6 +135,14 @@ export default {
       $("html,body").animate(
         {
           scrollTop: $(".section-resume").offset().top
+        },
+        1000
+      );
+    });
+    $("#contact").click(function() {
+      $("html,body").animate(
+        {
+          scrollTop: $(".section-contact").offset().top
         },
         1000
       );
