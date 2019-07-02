@@ -4,7 +4,7 @@
       <div class="all-nav">
         <div class="nav">
           <div class="nav__title" id="home">
-            <img src="@/assets/image/self.jpeg" alt="self" class="nav__title--img">
+            <img src="@/assets/image/self.jpeg" alt="self" class="nav__title--img" />
             <p class="nav__title--name">林品翰</p>
           </div>
           <ul class="nav__router">
@@ -24,14 +24,16 @@
               <i class="far fa-chart-bar nav__item--icon"></i>
               <a href="#" class="nav__item--direct">Skill</a>
             </li>
-            <li class="nav__item" id="resume">
-              <i class="fas fa-file nav__item--icon"></i>
-              <a href="#" class="nav__item--direct">Resume</a>
-            </li>
-            <li class="nav__item" id="contact">
+                        <li class="nav__item" id="contact">
               <i class="fas fa-phone nav__item--icon"></i>
               <a href="#" class="nav__item--direct">Contact</a>
             </li>
+                       <li class="nav__item" id="resume">
+              <i class="fas fa-file nav__item--icon"></i>
+              <a href="#" class="nav__item--direct">Resume</a>
+            </li>
+
+ 
           </ul>
         </div>
         <div class="copyright">
@@ -46,8 +48,8 @@
       <exp class="section-exp height-all" id="nav-2">exp</exp>
       <project class="section-project height-all" id="nav-3">project</project>
       <skill class="section-skill height-all" id="nav-4">skill</skill>
-      <resume class="section-resume height-all" id="nav-5">resume</resume>
-      <contact class="section-contact height-all" id="nav-6">contact</contact>
+      <contact class="section-contact height-all" id="nav-5">contact</contact>
+      <!-- <resume class="section-resume height-all" id="nav-6">resume</resume> -->
     </div>
   </div>
 </template>
@@ -154,7 +156,7 @@ export default {
       const scorll3 = $("#nav-3").offset().top; //2367
       const scorll4 = $("#nav-4").offset().top; //3398
       const scorll5 = $("#nav-5").offset().top; //4187
-      const scorll6 = $("#nav-6").offset().top; //4976
+      // const scorll6 = $("#nav-6").offset().top; //4976
 
       let now = $(window).scrollTop();
       // console.log(now);
@@ -188,16 +190,20 @@ export default {
         $("#skill").css("background-color", "#f2ab37");
       }
       if (
-        now >= (scorll4 + scorll5) / 2 &&
-        now <= (scorll5 + scorll6) / 2 - 1
+        now >= (scorll4 + scorll5) / 2
+        //  &&
+        // now <= (scorll5 + scorll6) / 2 - 1
       ) {
         $(".nav__item").css("background-color", "transparent");
-        $("#resume").css("background-color", "#f2ab37");
+                        $("#contact").css("background-color", "#f2ab37");
+
+
       }
-      if (now >= (scorll5 + scorll6) / 2) {
-        $(".nav__item").css("background-color", "transparent");
-        $("#contact").css("background-color", "#f2ab37");
-      }
+      // if (now >= (scorll5 + scorll6) / 2) {
+      //   $(".nav__item").css("background-color", "transparent");
+      //           // $("#contact").css("background-color", "green");
+
+      // }
       if (now <= scorll1 / 2) {
         $(".nav__item").css("background-color", "transparent");
       }
